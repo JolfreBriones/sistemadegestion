@@ -1,0 +1,65 @@
+/*
+// scss-docs-start theme-color-variables
+$primary:       #0A58CA;
+$secondary:     #ADB5BD; 
+$success:       #20C997 ;
+$info:          #0DCAF0;
+$warning:       #FD7E14;
+$danger:        #DF0044;
+$light:         #8392AB;
+$dark:          #344767;
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+*/
+
+// scss-docs-start theme-color-variables
+$primary:       #215AC9;    
+$secondary:     #E1E1E1;
+$success:       #20C997;
+$info:          #0DCAF0;
+$warning:       #FD7E14;
+$danger:        #DF0044;
+$light:         #8392AB;    //
+$dark:          #344767;    //
+
+$background:    #F5F5F5;    
+$background-1:  #ffffff;    
+//$background-2:  #215AC9;    
+$title:         #344767;    
+$sub-title:     #67748E;    
+$link:          #215AC9;    
+
+
+
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":      $primary,
+  "secondary":    $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+
+  "background":   $background,
+  "background-1": $background-1,
+  //"background-2": $background-2,
+  "title":        $title,
+  "sub-title":    $sub-title,
+  "link":         $link
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
